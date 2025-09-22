@@ -1,0 +1,23 @@
+main{
+    height: 100vh;
+    width:100%;
+    background-color: #FFFFFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: repeat(3 1fr);
+    grid-gap: 15px;
+    grid-row-gap: 15px; 
+    grid-column-gap: 15px;
+
+	width: 90%;
+	height: 90%;
+}
+
