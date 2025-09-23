@@ -1,2 +1,2 @@
 # Grid-A10
-recreate grid figma file
+recreate grid figma image
