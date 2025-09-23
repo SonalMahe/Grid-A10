@@ -16,13 +16,9 @@ main{
     box-sizing: border-box;
 }
 
-
 .grid_element{
-    display: flex;
     border: 1px solid white;
     border-radius:4px;
-    position: relative;
-    overflow: hidden;
 }
 .one{
     background: #007F5F;
@@ -74,7 +70,7 @@ main{
 }
 .nine{
     background: #BFD200;
-    height:100px;
+    height:110px;
     grid-row: 3/ 4;
     grid-column: 3/ 4;
 } 
